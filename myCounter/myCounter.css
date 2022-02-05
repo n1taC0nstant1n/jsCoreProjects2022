@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 16px;
+
+}
+
+h1{
+    font-size: 2.2em;
+}
+
+#value{
+    font-size: 4.5em;
+    margin-bottom: 50px;
+}
+
+.btns-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.8em;
+    display: inline-block
+}
+
+.btn.decrease{
+    background: #ff0000;
+    color: #ffffff;
+}
+
+.btn.increase{
+    background-color: #00ff00;
+    color: #ffffff;
+}

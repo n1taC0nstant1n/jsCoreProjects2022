@@ -1,7 +1,7 @@
 let count = 0
 var value = document.querySelector('#value')
 var btns = document.querySelectorAll('.btn')
-console.log(btns)
+//console.log(btns)
 btns.forEach(function(btn){
     btn.addEventListener('click', function(e){
         var styles = e.currentTarget.classList
